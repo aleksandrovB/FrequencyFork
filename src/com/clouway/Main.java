@@ -9,9 +9,15 @@ public class Main {
 
         System.out.println(new TextSplitterToWords().cut("as das bas fas"));
 
-        FrequencyAnalysator fq = new FrequencyAnalysator();
-        System.out.println(fq.frequencyAnalysis("Niki Iliev",new TextSplitterToSymbols()));
+        FrequencyAnalyser fq = new FrequencyAnalyser();
+        String symbol = "Niki Ileieve";
+        String word = "aa ss dd ff aa";
+        System.out.println("Raw Niki Iliev: "+fq.frequencyAnalysis(symbol,new TextSplitterToSymbols()));
 
-        System.out.println(fq.frequencyAnalysis("aa ss dd ff aa", new TextSplitterToWords()));
+        System.out.println("Raw aa ss dd ff aa: "+fq.frequencyAnalysis(word, new TextSplitterToWords()));
+
+        System.out.println("Formatted aa ss: "+fq.formatMap(word,new TextSplitterToWords()));
+
+        System.out.println("Most frequent: "+fq.filterMostFrequent(symbol,new TextSplitterToSymbols()));
     }
 }
