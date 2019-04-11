@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e3a41fcb-db72-4888-8d59-fd472a6bc94c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/clouway/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/clouway/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,20 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/clouway/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/clouway/FrequencyAnalyser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+            <state relative-caret-position="285">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -77,10 +78,10 @@
         <option value="$PROJECT_DIR$/src/com/clouway/ListForAnalysisDataSource.java" />
         <option value="$PROJECT_DIR$/src/com/clouway/FilteringMostFrequent.java" />
         <option value="$PROJECT_DIR$/src/com/clouway/FrequencyAnalysator.java" />
-        <option value="$PROJECT_DIR$/src/com/clouway/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/clouway/FrequencyAnalyser.java" />
         <option value="$PROJECT_DIR$/src/com/clouway/MapFormatter.java" />
         <option value="$PROJECT_DIR$/src/com/clouway/FilterMostFrequent.java" />
+        <option value="$PROJECT_DIR$/src/com/clouway/FrequencyAnalyser.java" />
+        <option value="$PROJECT_DIR$/src/com/clouway/Main.java" />
       </list>
     </option>
   </component>
@@ -125,7 +126,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554982216262" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554982217758" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../idea/Collections" />
   </component>
   <component name="RunDashboard">
@@ -234,13 +235,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/clouway/FilteringMostFrequent.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/clouway/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/clouway/FrequencyAnalysator.java" />
     <entry file="file://$PROJECT_DIR$/src/com/clouway/TextSplitterToSymbols.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -271,8 +265,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/clouway/FrequencyAnalyser.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/clouway/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
         </state>
       </provider>
     </entry>
