@@ -16,8 +16,9 @@ public class Main {
 
         System.out.println("Raw aa ss dd ff aa: "+fq.frequencyAnalysis(word, new TextSplitterToWords()));
 
-        System.out.println("Formatted aa ss: "+fq.formatMap(word,new TextSplitterToWords()));
+        System.out.println("Formatted aa ss: "+new MapFormatter().formatMap(word,new TextSplitterToWords()));
 
-        System.out.println("Most frequent: "+fq.filterMostFrequent(symbol,new TextSplitterToSymbols()));
+        System.out.println("Most frequent: "+new FilterMostFrequent().filterMostFrequent(symbol,
+                new TextSplitterToSymbols()));
     }
 }
